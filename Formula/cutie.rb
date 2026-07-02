@@ -1,7 +1,7 @@
 class Cutie < Formula
   homepage "https://github.com/keirlawson/cutie"
-  url "https://github.com/keirlawson/cutie/releases/download/v0.1.1/cutie-macos-aarch64"
-  sha256 "a56ebf37b3f32696402077b19f2344195014b33c8e92b4de025f970322266b26"
+  url "https://github.com/keirlawson/cutie/releases/download/v0.1.2/cutie-macos-aarch64"
+  sha256 "ead7d331e4355f1258408f4e27f94ed9aebcfa50e1a028aaf591c4c23ceb2ef8"
 
   def install
     bin.install "cutie-macos-aarch64" => "cutie"
